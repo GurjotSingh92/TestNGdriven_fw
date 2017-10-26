@@ -1,0 +1,233 @@
+# Created on 2017-10-26T18:38:08.588
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2017-10-26T18:38:10.408
+Unexpected IOException with stream: Oct 26, 2017 6:38:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+
+
+# Created on 2017-10-26T18:38:11.069
+Unexpected IOException with stream: [
+
+# Created on 2017-10-26T18:38:11.072
+Unexpected IOException with stream: 3
+
+# Created on 2017-10-26T18:38:11.075
+Unexpected IOException with stream: .
+
+# Created on 2017-10-26T18:38:11.078
+Unexpected IOException with stream: 3
+
+# Created on 2017-10-26T18:38:11.081
+Unexpected IOException with stream: 0
+
+# Created on 2017-10-26T18:38:11.082
+Unexpected IOException with stream: 6
+
+# Created on 2017-10-26T18:38:11.084
+Unexpected IOException with stream: ]
+
+# Created on 2017-10-26T18:38:11.085
+Unexpected IOException with stream: [
+
+# Created on 2017-10-26T18:38:11.087
+Unexpected IOException with stream: S
+
+# Created on 2017-10-26T18:38:11.089
+Unexpected IOException with stream: E
+
+# Created on 2017-10-26T18:38:11.091
+Unexpected IOException with stream: V
+
+# Created on 2017-10-26T18:38:11.105
+Unexpected IOException with stream: E
+
+# Created on 2017-10-26T18:38:11.108
+Unexpected IOException: 8,1,AutomationPractice.Maven_TestNG_Autopractice.Regression.Registration.RegistrationTest,setup(AutomationPractice.Maven_TestNG_Autopractice.Regression.Registration.RegistrationTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=61.0.3163.100)\000A  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f)\002Cplatform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.6.0'\002C revision: '6fbf3ec767'\002C time: '2017-09-27T15:28:36.4Z'\000ASystem info: host: 'MAGEIK-QA7'\002C ip: '10.10.4.131'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_144'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{mobileEmulationEnabled=false\002C hasTouchScreen=false\002C platform=XP\002C acceptSslCerts=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C platformName=XP\002C setWindowRect=true\002C unexpectedAlertBehaviour=\002C applicationCacheEnabled=false\002C rotatable=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f)\002C userDataDir=C:\005CUsers\005CGUAHUJ~1.BEB\005CAppData\005CLocal\005CTemp\005Cscoped_dir4356_6785}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C unhandledPromptBehavior=\002C databaseEnabled=false\002C handlesAlerts=true\002C version=61.0.3163.100\002C browserConnectionEnabled=false\002C nativeEvents=true\002C locationContextEnabled=true\002C cssSelectorsEnabled=true}]\000ASession ID: a165b38ab82e7f74e5121623555227bc,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=61.0.3163.100)\000A  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f)\002Cplatform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.6.0'\002C revision: '6fbf3ec767'\002C time: '2017-09-27T15:28:36.4Z'\000ASystem info: host: 'MAGEIK-QA7'\002C ip: '10.10.4.131'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_144'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{mobileEmulationEnabled=false\002C hasTouchScreen=false\002C platform=XP\002C acceptSslCerts=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C platformName=XP\002C setWindowRect=true\002C unexpectedAlertBehaviour=\002C applicationCacheEnabled=false\002C rotatable=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f)\002C userDataDir=C:\005CUsers\005CGUAHUJ~1.BEB\005CAppData\005CLocal\005CTemp\005Cscoped_dir4356_6785}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C unhandledPromptBehavior=\002C databaseEnabled=false\002C handlesAlerts=true\002C version=61.0.3163.100\002C browserConnectionEnabled=false\002C nativeEvents=true\002C locationContextEnabled=true\002C cssSelectorsEnabled=true}]\000ASession ID: a165b38ab82e7f74e5121623555227bc,RegistrationTest.setup:21->driver_class.initialization:32->driver_class.verifytitle:70 \00BB NoSuchWindow,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=61.0.3163.100)\000A  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f)\002Cplatform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.6.0'\002C revision: '6fbf3ec767'\002C time: '2017-09-27T15:28:36.4Z'\000ASystem info: host: 'MAGEIK-QA7'\002C ip: '10.10.4.131'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_144'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{mobileEmulationEnabled=false\002C hasTouchScreen=false\002C platform=XP\002C acceptSslCerts=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C platformName=XP\002C setWindowRect=true\002C unexpectedAlertBehaviour=\002C applicationCacheEnabled=false\002C rotatable=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f)\002C userDataDir=C:\005CUsers\005CGUAHUJ~1.BEB\005CAppData\005CLocal\005CTemp\005Cscoped_dir4356_6785}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C unhandledPromptBehavior=\002C databaseEnabled=false\002C handlesAlerts=true\002C version=61.0.3163.100\002C browserConnectionEnabled=false\002C nativeEvents=true\002C locationContextEnabled=true\002C cssSelectorsEnabled=true}]\000ASession ID: a165b38ab82e7f74e5121623555227bc\000A\0009at AutomationPractice.Maven_TestNG_Autopractice.Regression.Registration.RegistrationTest.setup(RegistrationTest.java:21)\000A
+
+
+# Created on 2017-10-26T18:38:11.110
+Unexpected IOException with stream: R
+
+# Created on 2017-10-26T18:38:11.112
+Unexpected IOException with stream: E
+
+# Created on 2017-10-26T18:38:11.113
+Unexpected IOException with stream: ]
+
+# Created on 2017-10-26T18:38:11.115
+Unexpected IOException with stream: this is the start of test caseregistration
+
+
+# Created on 2017-10-26T18:38:11.116
+Unexpected IOException with stream: :
+
+# Created on 2017-10-26T18:38:11.119
+Unexpected IOException with stream:  
+
+# Created on 2017-10-26T18:38:11.121
+Unexpected IOException: 5,1,AutomationPractice.Maven_TestNG_Autopractice.Regression.Registration.RegistrationTest,registration(AutomationPractice.Maven_TestNG_Autopractice.Regression.Registration.RegistrationTest),AutomationPractice.Maven_TestNG_Autopractice.Regression.Registration.RegistrationTest,null,null
+
+
+# Created on 2017-10-26T18:38:11.122
+Unexpected IOException with stream: U
+
+# Created on 2017-10-26T18:38:11.124
+Unexpected IOException with stream: The name of the testcase skipped is :registration
+
+
+# Created on 2017-10-26T18:38:11.126
+Unexpected IOException with stream: n
+
+# Created on 2017-10-26T18:38:11.148
+Unexpected IOException: 9,1,AutomationPractice.Maven_TestNG_Autopractice.Regression.Registration.RegistrationTest,registration(AutomationPractice.Maven_TestNG_Autopractice.Regression.Registration.RegistrationTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=61.0.3163.100)\000A  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f)\002Cplatform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.6.0'\002C revision: '6fbf3ec767'\002C time: '2017-09-27T15:28:36.4Z'\000ASystem info: host: 'MAGEIK-QA7'\002C ip: '10.10.4.131'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_144'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{mobileEmulationEnabled=false\002C hasTouchScreen=false\002C platform=XP\002C acceptSslCerts=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C platformName=XP\002C setWindowRect=true\002C unexpectedAlertBehaviour=\002C applicationCacheEnabled=false\002C rotatable=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f)\002C userDataDir=C:\005CUsers\005CGUAHUJ~1.BEB\005CAppData\005CLocal\005CTemp\005Cscoped_dir4356_6785}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C unhandledPromptBehavior=\002C databaseEnabled=false\002C handlesAlerts=true\002C version=61.0.3163.100\002C browserConnectionEnabled=false\002C nativeEvents=true\002C locationContextEnabled=true\002C cssSelectorsEnabled=true}]\000ASession ID: a165b38ab82e7f74e5121623555227bc,null
+
+
+# Created on 2017-10-26T18:38:11.150
+Unexpected IOException with stream: a
+
+# Created on 2017-10-26T18:38:11.153
+Unexpected IOException with stream: this is the start of test caseregistrationfullinformation
+
+
+# Created on 2017-10-26T18:38:11.154
+Unexpected IOException: 5,1,AutomationPractice.Maven_TestNG_Autopractice.Regression.Registration.RegistrationTest,registrationfullinformation(AutomationPractice.Maven_TestNG_Autopractice.Regression.Registration.RegistrationTest),AutomationPractice.Maven_TestNG_Autopractice.Regression.Registration.RegistrationTest,null,null
+
+
+# Created on 2017-10-26T18:38:11.156
+Unexpected IOException with stream: b
+
+# Created on 2017-10-26T18:38:11.157
+Unexpected IOException with stream: The name of the testcase skipped is :registrationfullinformation
+
+
+# Created on 2017-10-26T18:38:11.158
+Unexpected IOException with stream: l
+
+# Created on 2017-10-26T18:38:11.159
+Unexpected IOException: 9,1,AutomationPractice.Maven_TestNG_Autopractice.Regression.Registration.RegistrationTest,registrationfullinformation(AutomationPractice.Maven_TestNG_Autopractice.Regression.Registration.RegistrationTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=61.0.3163.100)\000A  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f)\002Cplatform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.6.0'\002C revision: '6fbf3ec767'\002C time: '2017-09-27T15:28:36.4Z'\000ASystem info: host: 'MAGEIK-QA7'\002C ip: '10.10.4.131'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_144'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{mobileEmulationEnabled=false\002C hasTouchScreen=false\002C platform=XP\002C acceptSslCerts=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C platformName=XP\002C setWindowRect=true\002C unexpectedAlertBehaviour=\002C applicationCacheEnabled=false\002C rotatable=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f)\002C userDataDir=C:\005CUsers\005CGUAHUJ~1.BEB\005CAppData\005CLocal\005CTemp\005Cscoped_dir4356_6785}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C unhandledPromptBehavior=\002C databaseEnabled=false\002C handlesAlerts=true\002C version=61.0.3163.100\002C browserConnectionEnabled=false\002C nativeEvents=true\002C locationContextEnabled=true\002C cssSelectorsEnabled=true}]\000ASession ID: a165b38ab82e7f74e5121623555227bc,null
+
+
+# Created on 2017-10-26T18:38:11.160
+Unexpected IOException with stream: e
+
+# Created on 2017-10-26T18:38:11.161
+Unexpected IOException: 9,1,AutomationPractice.Maven_TestNG_Autopractice.Regression.Registration.RegistrationTest,closebrowseraftertest(AutomationPractice.Maven_TestNG_Autopractice.Regression.Registration.RegistrationTest),null,null,null
+
+
+# Created on 2017-10-26T18:38:11.162
+Unexpected IOException with stream:  
+
+# Created on 2017-10-26T18:38:11.164
+Unexpected IOException with stream: t
+
+# Created on 2017-10-26T18:38:11.165
+Unexpected IOException with stream: o
+
+# Created on 2017-10-26T18:38:11.167
+Unexpected IOException with stream:  
+
+# Created on 2017-10-26T18:38:11.168
+Unexpected IOException with stream: r
+
+# Created on 2017-10-26T18:38:11.169
+Unexpected IOException with stream: e
+
+# Created on 2017-10-26T18:38:11.173
+Unexpected IOException with stream: c
+
+# Created on 2017-10-26T18:38:11.175
+Unexpected IOException with stream: e
+
+# Created on 2017-10-26T18:38:11.176
+Unexpected IOException with stream: i
+
+# Created on 2017-10-26T18:38:11.177
+Unexpected IOException with stream: v
+
+# Created on 2017-10-26T18:38:11.178
+Unexpected IOException with stream: e
+
+# Created on 2017-10-26T18:38:11.179
+Unexpected IOException with stream:  
+
+# Created on 2017-10-26T18:38:11.180
+Unexpected IOException with stream: m
+
+# Created on 2017-10-26T18:38:11.183
+Unexpected IOException with stream: e
+
+# Created on 2017-10-26T18:38:11.186
+Unexpected IOException with stream: s
+
+# Created on 2017-10-26T18:38:11.188
+Unexpected IOException with stream: s
+
+# Created on 2017-10-26T18:38:11.190
+Unexpected IOException with stream: a
+
+# Created on 2017-10-26T18:38:11.191
+Unexpected IOException with stream: g
+
+# Created on 2017-10-26T18:38:11.192
+Unexpected IOException with stream: e
+
+# Created on 2017-10-26T18:38:11.194
+Unexpected IOException with stream:  
+
+# Created on 2017-10-26T18:38:11.195
+Unexpected IOException with stream: f
+
+# Created on 2017-10-26T18:38:11.195
+Unexpected IOException with stream: r
+
+# Created on 2017-10-26T18:38:11.196
+Unexpected IOException with stream: o
+
+# Created on 2017-10-26T18:38:11.197
+Unexpected IOException with stream: m
+
+# Created on 2017-10-26T18:38:11.197
+Unexpected IOException with stream:  
+
+# Created on 2017-10-26T18:38:11.199
+Unexpected IOException with stream: r
+
+# Created on 2017-10-26T18:38:11.200
+Unexpected IOException with stream: e
+
+# Created on 2017-10-26T18:38:11.201
+Unexpected IOException with stream: n
+
+# Created on 2017-10-26T18:38:11.203
+Unexpected IOException with stream: d
+
+# Created on 2017-10-26T18:38:11.204
+Unexpected IOException with stream: e
+
+# Created on 2017-10-26T18:38:11.205
+Unexpected IOException with stream: r
+
+# Created on 2017-10-26T18:38:11.206
+Unexpected IOException with stream: e
+
+# Created on 2017-10-26T18:38:11.207
+Unexpected IOException with stream: r
+
+# Created on 2017-10-26T18:38:11.208
+Unexpected IOException with stream: 
+
+# Created on 2017-10-26T18:38:11.210
+Unexpected IOException with stream: 
+
+
+# Created on 2017-10-26T18:38:11.528
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

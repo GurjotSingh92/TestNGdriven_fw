@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <listeners>
+    <listener class-name="AutomationPractice.Maven_TestNG_Autopractice.Listener.listener"/>
+    <listener class-name="AutomationPractice.Maven_TestNG_Autopractice.Listener.AnnotationTransformer"/>
+  </listeners>
+  <test name="Registration Test(failed)">
+    <classes>
+      <class name="AutomationPractice.Maven_TestNG_Autopractice.Regression.Registration.RegistrationTest">
+        <methods>
+          <include name="registration"/>
+          <include name="setup"/>
+          <include name="closebrowseraftertest"/>
+        </methods>
+      </class> <!-- AutomationPractice.Maven_TestNG_Autopractice.Regression.Registration.RegistrationTest -->
+    </classes>
+  </test> <!-- Registration Test(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

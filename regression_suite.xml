@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+<listeners>
+	<listener class-name="AutomationPractice.Maven_TestNG_Autopractice.Listener.listener"></listener>
+	<listener class-name="AutomationPractice.Maven_TestNG_Autopractice.Listener.AnnotationTransformer"/>
+</listeners>
+	<test name="Login Test">
+		<classes>
+			<class
+				name="AutomationPractice.Maven_TestNG_Autopractice.Regression.Login.LoginTest" />
+		</classes>
+	</test> 
+	<test name="Registration Test">
+		<classes>
+			<class
+				name="AutomationPractice.Maven_TestNG_Autopractice.Regression.Registration.RegistrationTest" />
+		</classes>
+	</test> 
+</suite> <!-- Suite -->
