@@ -27,7 +27,9 @@ public class driver_class {
 
 	// this is the initialization method
 	public void initialization() throws IOException {
-		selectbrowser(getdataval("browser"));
+		 String URL=System.getProperty("url");
+		 String BROWSER=System.getProperty("browser");
+		selectbrowser(BROWSER);
 		driver.get(getdataval("baseurl"));
 		verifytitle(getdataval("titleval"));
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
@@ -82,6 +84,7 @@ public class driver_class {
 			driver = new ChromeDriver();
 
 		} else if (browsername.equals("firefox")) {
+			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/new_driver/geckodriver.exe");
 			driver = new FirefoxDriver();
 
 		}
