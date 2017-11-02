@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import AutomationPractice.Maven_TestNG_Autopractice.Driver_class.driver_class; 
 
 public class LoginTest extends driver_class{
-	Login log;
+	Login log; 
 	
 	@BeforeMethod
 	public void setup() throws IOException
