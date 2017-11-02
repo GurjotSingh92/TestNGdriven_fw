@@ -7,7 +7,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import AutomationPractice.Maven_TestNG_Autopractice.Driver_class.driver_class;
+import AutomationPractice.Maven_TestNG_Autopractice.Driver_class.driver_class; 
 
 public class LoginTest extends driver_class{
 	Login log;
