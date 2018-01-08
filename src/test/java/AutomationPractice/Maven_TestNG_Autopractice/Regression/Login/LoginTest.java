@@ -1,6 +1,6 @@
 package AutomationPractice.Maven_TestNG_Autopractice.Regression.Login;
 
-import java.io.IOException;  
+import java.io.IOException;   
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
